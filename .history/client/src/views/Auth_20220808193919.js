@@ -1,0 +1,8 @@
+
+const Auth = ({authRoute}) => {
+    return(
+        <>
+
+        </>
+    )
+}

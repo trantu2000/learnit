@@ -1,0 +1,24 @@
+POST  http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "tran",
+    "password": "admin"
+}
+
+###
+POST  http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "tran",
+    "password": "admin"
+}
+
+###
+POST  http://localhost:5000/api/auth/posts
+Content-Type: application/json
+
+{
+    "title" : "my first post",
+}

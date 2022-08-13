@@ -1,0 +1,28 @@
+POST  http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "tranthanhtu",
+    "password": "admin"
+}
+
+###
+POST  http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "tran",
+    "password": "admin"
+}
+
+###
+POST  http://localhost:5000/api/posts
+Content-Type: application/json
+Authorization: Beara eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmVmODhhZTQwMjNiNTg4Njc5NTA5ZTIiLCJpYXQiOjE2NTk5MzQ1NjZ9.bxbEZMWcB4hRkPBCO9fJYKno5LJoT6ufbsc5ePa7MDk
+
+{
+    "title" : "my first post",
+    "description": "shopping",
+    "url" : "shopee.com",
+    "status" : "LEARNED"
+}

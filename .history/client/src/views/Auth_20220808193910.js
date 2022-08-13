@@ -1,0 +1,7 @@
+
+const Auth = {{authRoute}} => {
+    return(
+        <>
+        </>
+    )
+}

@@ -1,0 +1,13 @@
+import Form from 'react-bootstrap/Form';
+
+const LoginForm = () => {
+  return (
+    <>
+    <Form.Group>
+      <Form.Control type='text' placeholder='Username' name='username' required/>
+    </Form.Group>
+    </>
+  )
+}
+
+export default LoginForm

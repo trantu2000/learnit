@@ -1,0 +1,45 @@
+POST  http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "tu",
+    "password": "tu"
+}
+
+###
+POST  http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "tran",
+    "password": "admin"
+}
+
+###
+POST  http://localhost:5000/api/posts
+Content-Type: application/json
+Authorization: Beara eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmYwOTgzMWQ1ZGM5ZWI0NmZhMjI4MTIiLCJpYXQiOjE2NTk5MzQ3Njl9.0Qor7E65ptkJ8xkYIo5mGebsrOCaD6yBJVy8T-OdmWc
+
+{
+    "title" : "React",
+    "description": "React",
+    "url" : "react.com",
+    "status" : "LEARNED"
+}
+
+###
+GET   http://localhost:5000/api/posts
+Content-Type: application/json
+Authorization: Beara eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmVmODhhZTQwMjNiNTg4Njc5NTA5ZTIiLCJpYXQiOjE2NTk5NTgyNjR9.bCwhChGqQDsFCcSvHVGheNoMZymyirhpZdHFwPavbus
+
+###
+PUT  http://localhost:5000/api/posts/62f097c17957f701f9736310
+Content-Type: application/json
+Authorization: Beara eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmVmODhhZTQwMjNiNTg4Njc5NTA5ZTIiLCJpYXQiOjE2NTk5NTgyNjR9.bCwhChGqQDsFCcSvHVGheNoMZymyirhpZdHFwPavbus
+
+{
+    "title" : "Vue",
+    "description": "Vueee",
+    "url" : "vuejs.org",
+    "status" : "LEARNING"
+}

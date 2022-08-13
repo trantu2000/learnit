@@ -1,0 +1,9 @@
+.landing{
+	position: relative;
+	background: url('./assets/landing.jpg') no-repeat center center/cover;
+	height: 100vh;
+}
+
+.dark-overlay{
+
+}

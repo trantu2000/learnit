@@ -1,0 +1,5 @@
+.landing {
+	position: relative;
+	background: url('./assets/landing.jpg')  center center/cover;
+	height: 100vh;
+}
